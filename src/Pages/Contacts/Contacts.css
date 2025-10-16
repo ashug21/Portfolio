@@ -1,0 +1,109 @@
+.contact-page123 {
+    margin-top: 100px;
+}
+
+/* Main Heading */
+#heading123 {
+    margin-left: 620px;
+    font-size: 37px;
+    font-weight: 500;
+}
+
+/* Container for Form & Info */
+.contact-container123 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* Contact Form Styling */
+.contact-form123 {
+    background: #eaebec;
+    padding: 30px 20px;
+    border-radius: 20px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: large;
+}
+
+.contact-form123 label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-form123 input,
+.contact-form123 textarea {
+    padding: 12px 15px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    resize: none;
+}
+
+.contact-form123 input:focus,
+.contact-form123 textarea:focus {
+    border: 1px solid #3b82f6;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+
+/* Button Styling */
+.btn123 {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 17px;
+    background: linear-gradient(135deg, #3b82f6, #60a5fa); 
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4); 
+    transition: all 0.3s ease; 
+    margin-left: 190px;
+}
+
+.btn123:hover {
+    cursor: pointer;
+    background: linear-gradient(135deg, #2563eb, #3b82f6); 
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5); 
+    transform: translateY(-2px);
+}
+
+/* Contact Info Styling - Improved */
+.contact-info123 {
+    background: #f0f2f5; /* lighter background for better contrast */
+    border-radius: 20px;
+    padding: 30px 25px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* more spacing */
+    font-size: 16px;
+    margin-left: 350px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info123:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contact-info123 .heading2123 {
+    font-size: 18px; /* larger and bolder heading */
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1f2937; /* darker for readability */
+}
+
+.contact-info123 p {
+    margin: 0;
+    color: #374151; /* subtle gray for text */
+    line-height: 1.6;
+}
