@@ -1,0 +1,119 @@
+/* ===== Navbar Container ===== */
+.navbar999 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+/* ===== Inner Layout ===== */
+.nav-container999 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ===== Logo ===== */
+.nav-logo999 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-logo999 span {
+  color: #007bff;
+}
+
+.nav-logo999:hover {
+  color: #007bff;
+}
+
+/* ===== Navigation Links ===== */
+.nav-links999 {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  margin: 0; /* remove any default ul margin */
+  padding: 0; /* remove any default ul padding */
+}
+
+.nav-links999 li {
+  list-style: none; /* ensure list items are clean */
+}
+
+.nav-links999 li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Subtle underline animation */
+.nav-links999 li a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #007bff;
+  transition: width 0.3s ease;
+}
+
+.nav-links999 li a:hover {
+  color: #007bff;
+}
+
+.nav-links999 li a:hover::after {
+  width: 100%;
+}
+
+/* ===== Resume Button ===== */
+.resume-btn999 {
+  background: #007bff;
+  color: #fff !important;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.resume-btn999:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* ===== Responsive (Tablet & Mobile) ===== */
+@media (max-width: 768px) {
+  .nav-container999 {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links999 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .nav-links999 li a {
+    font-size: 0.95rem;
+  }
+
+  .resume-btn999 {
+    font-size: 0.9rem;
+    padding: 7px 15px;
+  }
+}
