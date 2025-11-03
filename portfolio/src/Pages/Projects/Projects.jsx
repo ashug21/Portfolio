@@ -72,9 +72,7 @@ const Projects = () => {
       </div>
       
       </div>
-
       
-
 
      
 
