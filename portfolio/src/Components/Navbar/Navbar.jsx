@@ -1,12 +1,9 @@
 import React from "react";
 import "./Navbar.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
-  
-
- 
-
   return (
     <nav className="navbar999">
       <div className="nav-container999">
@@ -17,13 +14,23 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className="nav-links999">
-          <Link className="links" to='/'>Home</Link>
-          <Link  className="links" to='/projects'>My Projects</Link>
-          <Link  className="links" to='/contact'>Contact</Link>
+          <Link className="links" to="/">
+            Home
+          </Link>
+          <Link className="links" to="/projects">
+            My Projects
+          </Link>
+          <Link className="links" to="/contact">
+            Contact
+          </Link>
           <li>
-            <a href="" className="resume-btn999" target="_blank" rel="noopener noreferrer">
-              Resume
-            </a>
+          <a
+    href="/Resume.docx"                 // direct public path
+    className="resume-btn999"
+    download="Ashmeet_Resume.docx"     // optional: rename on download
+  >
+    Resume
+  </a>
           </li>
         </ul>
       </div>

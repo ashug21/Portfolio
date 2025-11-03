@@ -39,12 +39,28 @@ const Projects = () => {
       <div className='link-div'>
       <Link className='link-1' to="https://web-tv-ten.vercel.app">Project URL</Link>
       <Link className='link-2' to="https://github.com/ashug21/WebTV.git">Github Link</Link>
+      <Link className='link-btn' to="/webtv" target='_blank'>Video Walkthrough</Link>
+      </div>
+      
+      </div>
+
+
+      <div className='project-container'>
+      <h1>Project-3 : TaskManager</h1>
+      <br/>
+      <p> <strong>Description : </strong> Task Manager is a responsive React frontend with Node/Express backend enabling quick task creation, categorization, deadlines, and progress tracking. Clean UI, intuitive forms, and RESTful API for reliable CRUD operations and real-time UX.</p>
+      <br/>
+      <p><strong>Languages Used : </strong> React, Nodejs , Express , MongoDB Atlas</p>
+      <br/>
+      <div className='link-div'>
+      <Link className='link-1' to="https://task-manager-bice-ten.vercel.app">Project URL</Link>
+      <Link className='link-2' to="https://github.com/ashug21/TaskManager">Github Link</Link>
       </div>
       
       </div>
 
       <div className='project-container'>
-      <h1>Project-3 : Blinkit Clone</h1>
+      <h1>Project-4 : Blinkit Clone</h1>
       <br/>
       <p> <strong>Description : </strong> This Project is a clone for popular grocery delivery web application, built using React and Firebase. The platform replicates the core functionality and sleek user interface of Blinkit, allowing users to browse grocery items, add products to their cart. Firebase handles authentication, real-time database operations, and cloud hosting, ensuring smooth performance and secure data management. The app is fully responsive, providing an optimized experience across mobile and desktop devices. This project demonstrates front-end development skills, state management, and seamless integration with cloud-based backend services to deliver a fast, reliable.</p>
       <br/>
@@ -63,7 +79,7 @@ const Projects = () => {
      
 
       <div className='project-container'>
-      <h1>Project-4 : Weather App</h1>
+      <h1>Project-5 : Weather App</h1>
       <br/>
       <p> <strong>Description : </strong> Weather Forecast is a React-based web application that provides real-time weather updates for any city using the WeatherAPI. Users can enter a location to instantly view temperature, humidity, wind speed, and weather conditions in both Celsius and Fahrenheit. The app features a clean, responsive design and uses API integration to deliver accurate, up-to-date weather information, making it simple and efficient for users to check global weather conditions anytime.</p>
       <br/>

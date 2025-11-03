@@ -1,0 +1,34 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: linear-gradient(135deg, #e0f2fe, #f9fafb);
+    padding: 40px 20px;
+  }
+  
+  .video-container iframe {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .video-container iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  }
+
+  #para999{
+    margin-left: 200px;
+    font-size: large;
+  }
+  
+  /* Mobile-friendly */
+  @media (max-width: 768px) {
+    .video-container iframe {
+      width: 100%;
+      height: 240px;
+    }
+  }
+  
