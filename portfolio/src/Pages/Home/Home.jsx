@@ -16,11 +16,11 @@ const Home = () => {
   function handleAbout() {
     const aboutSection = document.getElementById("heading");
     if (aboutSection) {
-      // Get current position of the element
-      const elementPosition = aboutSection.getBoundingClientRect().top;
-      const offset = 100; // adjust this value to scroll less or more
 
-      // Scroll smoothly by calculated distance
+      const elementPosition = aboutSection.getBoundingClientRect().top;
+      const offset = 100; 
+
+
       window.scrollBy({
         top: elementPosition - offset,
         behavior: "smooth",
@@ -37,13 +37,13 @@ const Home = () => {
           <h2>that connect people and technology.</h2>
 
           <div className="btnclass">
-            <button
+            <a
               href="/Resume.docx" 
               className="resume-btn999 btn"
               download="Ashmeet_Resume.docx"
             >
               Download CV
-            </button>
+            </a>
             <button onClick={handleAbout} className="btn2">
               About Me
             </button>

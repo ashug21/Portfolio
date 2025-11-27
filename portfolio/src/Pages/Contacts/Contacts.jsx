@@ -38,14 +38,14 @@ theme="dark"
       <br/>
 
       <div className="contact-container123">
-        {/* Contact Form */}
+
        
-        {/* Contact Info */}
+
         <div className="contact-info123">
           <h2 className="heading2123">Get in touch</h2>
           <p>Email: ashmeetsinghkalsi.dev@gmail.com</p>
           <p>Phone: +91-9971911118</p>
-          <p>Location: India</p>
+          <p>Location: Delhi,India</p>
         </div>
       </div>
     </div>
