@@ -33,9 +33,6 @@ const Home = () => {
 
       <div className="hero">
         <div className="heading">
-          <h1>LOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOll
-            <h1>LOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOllLOLOll</h1>
-          </h1>
           <h2>Crafting dynamic applications,</h2>
           <h2>that connect people and technology.</h2>
 
