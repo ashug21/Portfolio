@@ -48,7 +48,7 @@ theme="dark"
           <p>Location: Delhi,India</p>
         </div>
 
-        <h1>Hello</h1>
+
       </div>
     </div>
   );

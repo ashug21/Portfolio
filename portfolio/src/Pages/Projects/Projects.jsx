@@ -16,8 +16,24 @@ const Projects = () => {
       <Navbar/>
       <br/><br/>
 
+
       <div className='project-container'>
-      <h1>Project-1 : FitnessTracker</h1>
+      <h1>Project-1 : BuyVerse </h1>
+      <br/>
+      <p> <strong>Description : </strong>BuyVerse, a full-stack Next.js e-commerce platform with product browsing, add-to-cart, address management, order placement, and UPI-based payment flow using razorpay and NextJs authentication for users. Implemented dynamic routing, localStorage cart handling, backend APIs, responsive UI, and seamless checkout experience. Deployed on Vercel with modern UX practices.</p>
+      <br/>
+      <p><strong>Languages Used : </strong>  Next.js, React, Node.js, Express, MongoDB Atlas, Razorpay (UPI).</p>
+      <br/>
+      <div className='link-div'>
+      <Link className='link-1' to="https://buy-verse-delta.vercel.app">Project URL</Link>
+      <Link className='link-2' to="https://github.com/ashug21/BuyVerse">Github Link</Link>
+      </div>
+      
+      </div>
+
+
+      <div className='project-container'>
+      <h1>Project-2 : FitnessTracker</h1>
       <br/>
       <p> <strong>Description : </strong> FitnessTracker is a Full-stack fitness application that lets users set goals, track their workout and set PR(Personal Record), calculate calories,choose goal and workout split , and manage progress through a React-powered interface with backend APIs , using express for CRUD operations and Firebase for authentication, offering a smooth, organized, and user-friendly fitness management experience.
       </p>
@@ -30,9 +46,12 @@ const Projects = () => {
       </div>
       
       </div>
+
+
+   
       
       <div className='project-container'>
-      <h1>Project-2 : CryptoPlace</h1>
+      <h1>Project-3 : CryptoPlace</h1>
       <br/>
       <p> <strong>Description : </strong> CryptoPlace is a React-based web application that provides real-time cryptocurrency details, including price, market cap, and symbol for popular coins. It fetches live data from APIs and displays it in a clean, responsive interface. The project helps users easily track crypto market trends and stay updated with accurate, up-to-date financial information.</p>
       <br/>
@@ -46,7 +65,7 @@ const Projects = () => {
       </div>
 
       <div className='project-container'>
-      <h1>Project-3 : WebTV</h1>
+      <h1>Project-4 : WebTV</h1>
       <br/>
       <p> <strong>Description : </strong>WebTV is a full-stack web application that works like an OTT platform. Users can sign up and log in to access the app, browse, and watch movie trailers. It also has a subscription page (still under development) and offers other features to make the platform more interactive and user-friendly. WebTV aims to provide a smooth streaming experience while continuously adding new functionalities for a better user experience.</p>
       <br/>
@@ -62,7 +81,7 @@ const Projects = () => {
 
 
       <div className='project-container'>
-      <h1>Project-4 : TaskManager</h1>
+      <h1>Project-5 : TaskManager</h1>
       <br/>
       <p> <strong>Description : </strong> Task Manager is a responsive React frontend with Node/Express backend enabling quick task creation, categorization, deadlines, and progress tracking. Clean UI, intuitive forms, and RESTful API for reliable CRUD operations and real-time UX.</p>
       <br/>
@@ -76,7 +95,7 @@ const Projects = () => {
       </div>
 
       <div className='project-container'>
-      <h1>Project-5 : Blinkit Clone</h1>
+      <h1>Project-6 : Blinkit Clone</h1>
       <br/>
       <p> <strong>Description : </strong> This Project is a clone for popular grocery delivery web application, built using React and Firebase. The platform replicates the core functionality and sleek user interface of Blinkit, allowing users to browse grocery items, add products to their cart. Firebase handles authentication, real-time database operations, and cloud hosting, ensuring smooth performance and secure data management. The app is fully responsive, providing an optimized experience across mobile and desktop devices. This project demonstrates front-end development skills, state management, and seamless integration with cloud-based backend services to deliver a fast, reliable.</p>
       <br/>
@@ -93,7 +112,7 @@ const Projects = () => {
      
 
       <div className='project-container'>
-      <h1>Project-6 : Weather App</h1>
+      <h1>Project-7 : Weather App</h1>
       <br/>
       <p> <strong>Description : </strong> Weather Forecast is a React-based web application that provides real-time weather updates for any city using the WeatherAPI. Users can enter a location to instantly view temperature, humidity, wind speed, and weather conditions in both Celsius and Fahrenheit. The app features a clean, responsive design and uses API integration to deliver accurate, up-to-date weather information, making it simple and efficient for users to check global weather conditions anytime.</p>
       <br/>
