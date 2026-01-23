@@ -30,4 +30,127 @@
     font-weight: 500;
     white-space: nowrap;
   }
+
+
+  @media (max-width: 1200px) {
+    .techCardsContainer07 {
+      gap: 40px;
+      margin-left: 120px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .techCardsContainer07 {
+      gap: 35px;
+      margin-left: 80px;
+    }
+  
+    .techCard07 {
+      width: 145px;
+      height: 48px;
+    }
+  
+    .techLogo07 {
+      height: 32px;
+      width: 32px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .techCardsContainer07 {
+      gap: 30px;
+      margin-left: 60px;
+    }
+  
+    .techCard07 {
+      width: 140px;
+      height: 46px;
+    }
+  
+    .techName07 {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .techCardsContainer07 {
+      gap: 26px;
+      margin-left: 40px;
+    }
+  
+    .techCard07 {
+      width: 135px;
+      height: 45px;
+    }
+  
+    .techLogo07 {
+      height: 30px;
+      width: 30px;
+    }
+  
+    .techName07 {
+      font-size: 0.92rem;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .techCardsContainer07 {
+      gap: 22px;
+      margin-left: 20px;
+    }
+  
+    .techCard07 {
+      width: 130px;
+      height: 44px;
+    }
+  
+    .techName07 {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .techCardsContainer07 {
+      gap: 18px;
+      margin-left: 0;
+      justify-content: center;
+    }
+  
+    .techCard07 {
+      width: 125px;
+      height: 42px;
+    }
+  
+    .techLogo07 {
+      height: 28px;
+      width: 28px;
+      margin-right: 8px;
+    }
+  
+    .techName07 {
+      font-size: 0.88rem;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    .techCardsContainer07 {
+      gap: 14px;
+    }
+  
+    .techCard07 {
+      width: 115px;
+      height: 40px;
+      padding: 4px;
+    }
+  
+    .techLogo07 {
+      height: 26px;
+      width: 26px;
+    }
+  
+    .techName07 {
+      font-size: 0.85rem;
+    }
+  }
+  
   

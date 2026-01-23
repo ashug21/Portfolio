@@ -12,3 +12,44 @@ body{
   width: 100vw;
 }
 
+
+@media (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 390px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
