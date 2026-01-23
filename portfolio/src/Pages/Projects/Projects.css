@@ -54,19 +54,116 @@
   margin-top: 25px;
 }
 
-/* Optional: make buttons responsive */
-@media (max-width: 768px) {
+
+
+@media (max-width: 1200px) {
   .project-container {
-    padding: 30px 25px;
+    max-width: 760px;
+    padding: 38px 45px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .project-container {
+    max-width: 700px;
+    padding: 35px 40px;
   }
 
-  .link-div {
-    flex-direction: column;
-    gap: 15px;
+  .project-container h1 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-container {
+    max-width: 650px;
+    margin: 70px auto;
+    padding: 32px 35px;
+  }
+
+  .project-container p {
+    font-size: 15.5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    max-width: 90%;
+    margin: 60px auto;
+    padding: 30px 30px;
+  }
+
+  .project-container h1 {
+    font-size: 26px;
+  }
+
+  .project-container p {
+    font-size: 15px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .project-container {
+    padding: 28px 25px;
+    border-radius: 18px;
+  }
+
+  .project-container h1 {
+    font-size: 24px;
   }
 
   .project-container a {
-    width: 80%;
-    text-align: center;
+    padding: 11px 22px;
+    font-size: 15px;
+  }
+
+  .link-div {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-container {
+    margin: 50px auto;
+    padding: 24px 20px;
+    border-radius: 16px;
+  }
+
+  .project-container h1 {
+    font-size: 22px;
+  }
+
+  .project-container p {
+    font-size: 14.5px;
+    line-height: 1.65;
+  }
+
+  .project-container a {
+    padding: 10px 20px;
+    border-radius: 9px;
+  }
+}
+
+@media (max-width: 390px) {
+  .project-container {
+    padding: 22px 18px;
+  }
+
+  .project-container h1 {
+    font-size: 21px;
+  }
+
+  .project-container p {
+    font-size: 14px;
+  }
+
+  .project-container a {
+    padding: 9px 18px;
+    font-size: 14px;
+  }
+
+  .link-div {
+    gap: 14px;
   }
 }

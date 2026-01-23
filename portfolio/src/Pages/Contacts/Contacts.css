@@ -107,3 +107,167 @@
     color: #374151; /* subtle gray for text */
     line-height: 1.6;
 }
+
+
+@media (max-width: 1200px) {
+    #heading123 {
+      margin-left: 420px;
+      font-size: 35px;
+    }
+  
+    .contact-container123 {
+      margin-left: 50px;
+      gap: 40px;
+    }
+  
+    .contact-info123 {
+      margin-left: 250px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    #heading123 {
+      margin-left: 320px;
+      font-size: 34px;
+    }
+  
+    .contact-container123 {
+      margin-left: 40px;
+      gap: 35px;
+    }
+  
+    .contact-form123 {
+      width: 48%;
+    }
+  
+    .contact-info123 {
+      width: 38%;
+      margin-left: 180px;
+    }
+  
+    .btn123 {
+      margin-left: 150px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    #heading123 {
+      margin-left: 250px;
+      font-size: 32px;
+    }
+  
+    .contact-container123 {
+      gap: 30px;
+      margin-left: 30px;
+    }
+  
+    .contact-form123 {
+      width: 50%;
+    }
+  
+    .contact-info123 {
+      width: 40%;
+      margin-left: 120px;
+    }
+  
+    .btn123 {
+      margin-left: 120px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #heading123 {
+      margin-left: 0;
+      text-align: center;
+      font-size: 30px;
+    }
+  
+    .contact-container123 {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      gap: 35px;
+    }
+  
+    .contact-form123 {
+      width: 85%;
+    }
+  
+    .contact-info123 {
+      width: 85%;
+      margin-left: 0;
+    }
+  
+    .btn123 {
+      margin-left: 0;
+      align-self: center;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .contact-form123 {
+      padding: 25px 18px;
+      font-size: medium;
+    }
+  
+    .contact-form123 label {
+      font-size: 15px;
+    }
+  
+    .contact-info123 {
+      padding: 25px 20px;
+      font-size: 15px;
+    }
+  
+    .contact-info123 .heading2123 {
+      font-size: 17px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-page123 {
+      margin-top: 80px;
+    }
+  
+    #heading123 {
+      font-size: 28px;
+    }
+  
+    .contact-form123 {
+      width: 92%;
+      border-radius: 16px;
+    }
+  
+    .contact-info123 {
+      width: 92%;
+      border-radius: 16px;
+    }
+  
+    .btn123 {
+      width: 140px;
+      height: 38px;
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    #heading123 {
+      font-size: 26px;
+    }
+  
+    .contact-form123 {
+      padding: 22px 16px;
+    }
+  
+    .contact-info123 {
+      padding: 22px 16px;
+    }
+  
+    .btn123 {
+      width: 130px;
+      height: 36px;
+      border-radius: 14px;
+      font-size: 0.9rem;
+    }
+  }
+  
