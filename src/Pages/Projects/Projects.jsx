@@ -65,7 +65,21 @@ const Projects = () => {
       </div>
 
       <div className='project-container'>
-      <h1>Project-4 : WebTV</h1>
+      <h1>Project-4 : TaskFlow</h1>
+      <br/>
+      <p> <strong>Description : </strong> TaskFlow is a modern and efficient task management web application built using Next.js, Node.js with Express, and PostgreSQL. It allows users to create, organize, and track tasks with clear statuses and deadlines, all within a clean and good-looking user interface. The app focuses on simplicity and productivity, providing a smooth experience with structured task views and basic analytics to help users stay organized and focused. It also includes Google signIn along with that it also can add profile picture using Google.</p>
+      <br/>
+      <p><strong>Languages Used : </strong> NextJs, Nodejs , Express , PostgreSQL (Neon)</p>
+      <br/>
+      <div className='link-div'>
+      <Link className='link-1' to="https://my-task-manager-lime.vercel.app">Project URL</Link>
+      <Link className='link-2' to="https://github.com/ashug21/MyTaskManager">Github Link</Link>
+      </div>
+      
+      </div>
+
+      <div className='project-container'>
+      <h1>Project-5 : WebTV</h1>
       <br/>
       <p> <strong>Description : </strong>WebTV is a full-stack web application that works like an OTT platform. Users can sign up and log in to access the app, browse, and watch movie trailers. It also has a subscription page (still under development) and offers other features to make the platform more interactive and user-friendly. WebTV aims to provide a smooth streaming experience while continuously adding new functionalities for a better user experience.</p>
       <br/>
@@ -75,21 +89,6 @@ const Projects = () => {
       <Link className='link-1' to="https://web-tv-ten.vercel.app">Project URL</Link>
       <Link className='link-2' to="https://github.com/ashug21/WebTV.git">Github Link</Link>
       <Link className='link-btn' to="/webtv" target='_blank'>Video Walkthrough</Link>
-      </div>
-      
-      </div>
-
-
-      <div className='project-container'>
-      <h1>Project-5 : TaskManager</h1>
-      <br/>
-      <p> <strong>Description : </strong> Task Manager is a responsive React frontend with Node/Express backend enabling quick task creation, categorization, deadlines, and progress tracking. Clean UI, intuitive forms, and RESTful API for reliable CRUD operations and real-time UX.</p>
-      <br/>
-      <p><strong>Languages Used : </strong> React, Nodejs , Express , MongoDB Atlas</p>
-      <br/>
-      <div className='link-div'>
-      <Link className='link-1' to="https://task-manager-bice-ten.vercel.app">Project URL</Link>
-      <Link className='link-2' to="https://github.com/ashug21/TaskManager">Github Link</Link>
       </div>
       
       </div>
