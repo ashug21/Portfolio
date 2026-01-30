@@ -19,10 +19,10 @@ const Projects = () => {
 
       <div className='project-container'>
       <h1>Project-1 : BuyVerse </h1>
+      <br/> 
+      <p> <strong>Description : </strong>BuyVerse, a full-stack Next.js e-commerce platform with product browsing, <strong>add-to-cart, address management, order placement, and UPI-based payment flow</strong> using razorpay and NextJs authentication for users. Implemented dynamic routing, localStorage cart handling, backend APIs, responsive UI, and seamless checkout experience. Also added <strong> OTP generation </strong> and validation while signing up users using redis ,  Deployed on Vercel with modern UX practices.</p>
       <br/>
-      <p> <strong>Description : </strong>BuyVerse, a full-stack Next.js e-commerce platform with product browsing, add-to-cart, address management, order placement, and UPI-based payment flow using razorpay and NextJs authentication for users. Implemented dynamic routing, localStorage cart handling, backend APIs, responsive UI, and seamless checkout experience. Deployed on Vercel with modern UX practices.</p>
-      <br/>
-      <p><strong>Languages Used : </strong>  Next.js, React, Node.js, Express, MongoDB Atlas, Razorpay (UPI).</p>
+      <p><strong>Languages Used : </strong>  Next.js, React, Node.js, Express, MongoDB Atlas, Razorpay (UPI), Redis(Railway)</p>
       <br/>
       <div className='link-div'>
       <Link className='link-1' to="https://buy-verse-delta.vercel.app">Project URL</Link>
@@ -53,7 +53,7 @@ const Projects = () => {
       <div className='project-container'>
       <h1>Project-3 : CryptoPlace</h1>
       <br/>
-      <p> <strong>Description : </strong> CryptoPlace is a React-based web application that provides real-time cryptocurrency details, including price, market cap, and symbol for popular coins. It fetches live data from APIs and displays it in a clean, responsive interface. The project helps users easily track crypto market trends and stay updated with accurate, up-to-date financial information.</p>
+      <p> <strong >Description :</strong>  CryptoPlace is a React-based web application that provides real-time cryptocurrency details, including price, market cap, and symbol for popular coins. It fetches live data from APIs and displays it in a clean, responsive interface. The project helps users easily track crypto market trends and stay updated with accurate, up-to-date financial information.</p>
       <br/>
       <p><strong>Languages Used : </strong> React, Firebase</p>
       <br/>

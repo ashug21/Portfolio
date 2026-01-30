@@ -27,9 +27,9 @@ const Navbar = () => {
           </Link>
           <li>
           <a
-    href="/Resume.docx"                 // direct public path
+    href="/Resume1.pdf"               
     className="resume-btn999"
-    download="Ashmeet_Resume.docx"     // optional: rename on download
+    download="Ashmeet_Resume.pdf"     
   >
     Resume
   </a>

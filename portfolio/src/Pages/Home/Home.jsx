@@ -38,9 +38,9 @@ const Home = () => {
 
           <div className="btnclass">
             <a
-              href="/Resume.docx" 
+              href="/Resume1.pdf" 
               className="resume-btn999 btn"
-              download="Ashmeet_Resume.docx"
+              download="Ashmeet_Resume.pdf"
             >
               Download CV
             </a>
