@@ -5,6 +5,7 @@ import About from "./Pages/About/About";
 import Projects from "./Pages/Projects/Projects";
 import Contacts from "./Pages/Contacts/Contacts";
 import Webtv from "./videoswalk/Webtv";
+import Certifications from "./Pages/Certifications/Certifications";
 
 function App() {
   const router = createBrowserRouter([
@@ -32,6 +33,12 @@ function App() {
       path: "/webtv",
       element : <div>
       <Webtv/>
+    </div>
+    },
+    {
+      path: "/certifications",
+      element : <div>
+      <Certifications/>
     </div>
     },
   ]);

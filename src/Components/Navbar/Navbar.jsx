@@ -22,14 +22,17 @@ const Navbar = () => {
           <Link className="links" to="/projects">
             My Projects
           </Link>
+          <Link className="links" to="/certifications">
+            Certifications
+          </Link>
           <Link className="links" to="/contact">
             Contact
           </Link>
           <li>
           <a
-    href="/Resume.docx"                 // direct public path
+    href="/Resume1.pdf"               
     className="resume-btn999"
-    download="Ashmeet_Resume.docx"     // optional: rename on download
+    download="Ashmeet_Resume.pdf"     
   >
     Resume
   </a>

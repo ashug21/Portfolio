@@ -1,0 +1,70 @@
+.certifications {
+  padding: 80px 8%;
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.certificationsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+  .certSingle {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .certCard {
+    width: 860px;
+    max-width: 100%;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+  }
+
+
+  .certCard h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .certCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
+  }
+  
+  .certImg {
+    width: 100%;
+    height: auto;
+    max-height: 520px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  
+  
+  .certCard h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .certCard p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #6b7280;
+  }
+  

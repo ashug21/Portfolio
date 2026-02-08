@@ -13,6 +13,7 @@ import typescript from '../../assets/logo/typescript.png'
 import express from '../../assets/logo/express.png'
 import git from '../../assets/logo/git.png'
 import amazon from '../../assets/logo/amazon.png'
+import postgreSQL from '../../assets/logo/postgre.png'
 
 import './Cards.css'
 
@@ -53,27 +54,35 @@ const Cards = () => {
     <br/>
     <div className="techCardsContainer07">
     <div className="techCard07">
-        <img src={express} alt="React" className="techLogo07" />
+        <img src={express} alt="express" className="techLogo07" />
         <span className="techName07">Express</span>
       </div>
       <div className="techCard07">
-        <img src={Firebase} alt="React" className="techLogo07" />
+        <img src={Firebase} alt="firebase" className="techLogo07" />
         <span className="techName07">Firebase</span>
       </div>
       <div className="techCard07">
-        <img src={MongoDB} alt="Node.js" className="techLogo07" />
+        <img src={MongoDB} alt="mongodb" className="techLogo07" />
         <span className="techName07">MongoDB</span>
       </div>
       <div className="techCard07">
-        <img src={git} alt="React" className="techLogo07" />
+        <img src={git} alt="git" className="techLogo07" />
         <span className="techName07">Git/Github</span>
       </div>
       <div className="techCard07">
-        <img src={amazon} alt="React" className="techLogo07" />
+        <img src={amazon} alt="aws" className="techLogo07" />
         <span className="techName07">AWS</span>
       </div>
       <div className="techCard07">
-        <img src={css} alt="React" className="techLogo07" />
+        <img src={postgreSQL} alt="postgres" className="techLogo07" />
+        <span className="techName07">PostgreSQL</span>
+      </div>
+    </div>
+
+    <br/>
+    <div className="techCardsContainer07">
+      <div className="techCard07">
+        <img src={css} alt="css" className="techLogo07" />
         <span className="techName07">CSS</span>
       </div>
     </div>
