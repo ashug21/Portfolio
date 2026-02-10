@@ -6,6 +6,7 @@ import IBM from "../../../Certificates/IBM.png";
 import Microsoft from "../../../Certificates/Microsoft.png";
 import Aitools from "../../../Certificates/AiTools.png";
 import productManager from "../../../Certificates/ProjectManager.png";
+import Meta from '../../../Certificates/Meta.png';
 
 const Certifications = () => {
   return (
@@ -45,7 +46,22 @@ const Certifications = () => {
             </p>
           </div>
         </div>
-        <br /> <br />
+        <br /> <br /><br />
+
+
+        <div className="certSingle">
+          <div className="certCard">
+            <img src={Meta} alt="React Certificate" className="certImg" />
+
+            <h3>Advanced React</h3>
+
+            <p>
+            Gained hands-on experience building scalable front-end applications using Advanced React, with a focus on hooks, component optimization, state management patterns, performance tuning, and modern best practices for production-ready UIs.
+            </p>
+          </div>
+        </div>
+
+        <br /> <br /><br />
         <div className="certSingle">
           <div className="certCard">
             <img src={Aitools} alt="React Certificate" className="certImg" />
@@ -58,9 +74,9 @@ const Certifications = () => {
               trends.
             </p>
           </div>
-          <br />
+
         </div>
-        <br /> <br />
+        <br /> <br /><br />
         <div className="certSingle">
           <div className="certCard">
             <img

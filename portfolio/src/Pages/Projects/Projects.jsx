@@ -20,9 +20,9 @@ const Projects = () => {
       <div className='project-container'>
       <h1>Project-1 : BuyVerse </h1>
       <br/> 
-      <p> <strong>Description : </strong>BuyVerse, a full-stack Next.js e-commerce platform with product browsing, <strong>add-to-cart, address management, order placement, and UPI-based payment flow</strong> using razorpay and NextJs authentication for users. Implemented dynamic routing, localStorage cart handling, backend APIs, responsive UI, and seamless checkout experience. Also added <strong> OTP generation </strong> and validation while signing up users using redis ,  Deployed on Vercel with modern UX practices.</p>
+      <p> <strong>Description : </strong>BuyVerse, a full-stack Next.js e-commerce platform with product browsing, <strong>add-to-cart, address management, order placement, and UPI-based payment flow</strong> using razorpay and NextJs authentication for users. Implemented dynamic routing, localStorage cart handling, backend APIs, responsive UI, and seamless checkout experience. Also added <strong> OTP generation </strong> and validation while signing up users using redis , also used Aws s3 to store data, Deployed on Vercel with modern UX practices.</p>
       <br/>
-      <p><strong>Languages Used : </strong>  Next.js, React, Node.js, Express, MongoDB Atlas, Razorpay (UPI), Redis(Railway)</p>
+      <p><strong>Languages Used : </strong>  Next.js, React, Node.js, Express, MongoDB Atlas, Razorpay (UPI), Redis(Railway) , AWS S3 </p>
       <br/>
       <div className='link-div'>
       <Link className='link-1' to="https://buy-verse-delta.vercel.app">Project URL</Link>
